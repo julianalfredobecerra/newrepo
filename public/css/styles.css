@@ -32,20 +32,16 @@ body {
 
 #tools {
   text-align: right;
-  margin-top: 1px;
+  margin-bottom: 5px;
   font-size: 0.9rem;
   color: black;
 }
 
-.header {
+#top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.account {
-  font-size: 0.9rem;
 }
 
 nav {
@@ -68,7 +64,6 @@ nav li+li {
 
 nav a {
   color: #fff;
-  font-weight: bold;
 }
 
 .hero {
