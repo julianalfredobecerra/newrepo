@@ -1,6 +1,151 @@
-/******* Change Box Model ***************/
-*,
-*:before,
-*:after {
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.4;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007EA7;
+}
+
+/* Container & header */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px solid #007EA7;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.account {
+  font-size: 0.9rem;
+}
+
+/* Navigation bar */
+nav {
+  background: #222;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li+li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.hero-text {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  max-width: 300px;
+  color: #007EA7;
+}
+
+.hero-text h2 {
+  margin-bottom: 10px;
+}
+
+.hero-text ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.hero-text ul li {
+  margin-bottom: 5px;
+}
+
+.hero-text .btn {
+  display: inline-block;
+  background: #007EA7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/* Content columns */
+.columns {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007EA7;
+  padding-bottom: 5px;
+}
+
+/* Grid lists */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
 }
