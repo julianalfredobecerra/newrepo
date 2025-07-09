@@ -99,13 +99,14 @@ nav a {
 }
 
 .hero-text .btn {
-  display: inline-block;
+  display: block;
   background: #007EA7;
   color: black;
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: bold;
-  align-items: center;
+  margin: 15px auto 0;
+
 }
 
 .columns {
@@ -120,7 +121,6 @@ nav a {
 
 .column h3 {
   margin-bottom: 10px;
-  border-bottom: 2px solid #007EA7;
   padding-bottom: 5px;
 }
 
