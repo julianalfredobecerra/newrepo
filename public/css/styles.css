@@ -53,6 +53,9 @@ nav {
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 nav ul {
