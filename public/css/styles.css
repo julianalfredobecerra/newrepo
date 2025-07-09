@@ -25,6 +25,10 @@ a {
   background: #fff;
 }
 
+.siteName {
+  font-size: 1.8rem;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
