@@ -23,6 +23,7 @@ body {
   padding: 20px;
   border: 4px solid #007EA7;
   background: #fff;
+  border-radius: 1%;
 }
 
 .siteName {
