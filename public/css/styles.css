@@ -87,13 +87,9 @@ nav a {
   margin-bottom: 10px;
 }
 
-.hero-text ul {
+.hero-text p {
   list-style: none;
   margin-bottom: 15px;
-}
-
-.hero-text ul li {
-  margin-bottom: 5px;
 }
 
 .hero-text .btn {
@@ -104,24 +100,26 @@ nav a {
   border-radius: 4px;
 }
 
-/* Content columns */
 .columns {
   display: flex;
   gap: 40px;
   margin-bottom: 20px;
 }
 
-.column {
+.column-one {
   flex: 1;
 }
 
-.column h3 {
+.column-two {
+  flex: 2;
+}
+
+.column-one h3, .column-two h3 {
   margin-bottom: 10px;
   border-bottom: 2px solid #007EA7;
   padding-bottom: 5px;
 }
 
-/* Grid lists */
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
