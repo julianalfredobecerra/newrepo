@@ -27,6 +27,14 @@ a {
 
 .siteName {
   font-size: 1.8rem;
+  color: black
+}
+
+#tools {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: black;
 }
 
 .header {
@@ -34,10 +42,6 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.header h1 {
-  font-size: 1.8rem;
 }
 
 .account {
