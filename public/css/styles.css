@@ -99,7 +99,7 @@ nav a {
 }
 
 .hero-text .btn {
-  display: block;
+  display: inline-block;
   background: #007EA7;
   color: black;
   padding: 10px 20px;
