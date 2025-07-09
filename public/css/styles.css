@@ -12,7 +12,7 @@ body {
   padding: 20px;
 }
 
-a {
+.columns a {
   text-decoration: none;
   color: #007EA7;
 }
