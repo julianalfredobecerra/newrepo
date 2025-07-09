@@ -86,6 +86,8 @@ nav a {
   top: 20px;
   max-width: 300px;
   color: #007EA7;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .hero-text h2 {
@@ -100,7 +102,7 @@ nav a {
 .hero-text .btn {
   display: inline-block;
   background: #007EA7;
-  color: #fff;
+  color: black;
   padding: 10px 20px;
   border-radius: 4px;
 }
