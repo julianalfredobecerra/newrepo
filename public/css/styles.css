@@ -142,8 +142,8 @@ nav a {
 
 .grid-item a {
   background-color: white;
-  width: max-content;
-  align-items: end;
+  width: auto;
+  align-items: flex-end;
 }
 
 footer {
