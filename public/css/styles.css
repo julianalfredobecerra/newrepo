@@ -129,15 +129,38 @@ nav a {
 }
 
 .grid-item {
-  text-align: center;
   background-color: #007EA7;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* center horizontally */
+  justify-content: space-between;
+  /* push first child up, last child down */
+  height: 180px;
+  /* or whatever fixed height you want */
+  border-radius: 4px;
 }
 
 .grid-item img {
-  max-width: 100%;
+  max-width: 80px;
+  /* tweak as needed */
   height: auto;
-  display: block;
-  margin: 0 auto 10px;
+}
+
+.grid-item figcaption {
+  /* ensures the caption/link hugs the bottom */
+  margin-top: auto;
+}
+
+.grid-item a {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
 }
 
 
