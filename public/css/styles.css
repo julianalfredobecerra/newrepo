@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-image: url(/newrepo/public/images/site/checkerboard.jpg);
+  background-position: center center;
 }
 
 body {
