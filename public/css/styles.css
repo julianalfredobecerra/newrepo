@@ -130,7 +130,7 @@ nav a {
 
 .grid-item {
   text-align: center;
-
+  background-color: #007EA7;
 }
 
 .grid-item img {
@@ -138,11 +138,12 @@ nav a {
   height: auto;
   display: block;
   margin: 0 auto 10px;
-  background-color: #007EA7;
 }
 
 .grid-item a {
   background-color: white;
+  width: max-content;
+  align-items: end;
 }
 
 footer {
