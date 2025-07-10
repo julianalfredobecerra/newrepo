@@ -140,15 +140,7 @@ nav a {
   margin: 0 auto 10px;
 }
 
-.grid-item a {
-  display: block;
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: white;
-  padding: 5px 0;
-  border-radius: 2px;
-}
+
 
 footer {
   text-align: center;
