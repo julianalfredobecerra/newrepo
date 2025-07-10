@@ -143,10 +143,10 @@ nav a {
 
 .grid-item a {
   display: block;
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
   padding: 5px 0;
   border-radius: 2px;
 }
