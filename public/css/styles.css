@@ -2,7 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: url(/newrepo/public/images/site/checkerboard.jpg);
+}
+
+html {
+  background-image: url("/images/site/checkerboard.jpg");
   background-position: center center;
 }
 
