@@ -129,29 +129,36 @@ nav a {
 }
 
 .grid-item {
-  text-align: center;
   background-color: #007EA7;
+  padding: 15px;
+  /* make it a fixed‑height flex column so we can push the link to the bottom: */
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  /* center the image and text horizontally */
+  justify-content: space-between;
+  /* image at top, link at bottom */
+  height: 180px;
+  /* adjust to taste */
+  border-radius: 4px;
 }
 
 .grid-item img {
-  max-width: 100%;
+  max-width: 80px;
+  /* or whatever size you like */
   height: auto;
-  display: block;
-  margin: 0 auto 10px;
+  /* no need for margins—flex centering handles it */
 }
 
 .grid-item a {
-  display: block;
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none;
-  background-color: white;
-  padding: 5px 0;
+  /* optional pill‑style background to stand out: */
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
   border-radius: 2px;
-  align-items: flex-end;
 }
-
 footer {
   text-align: center;
   margin-top: 40px;
