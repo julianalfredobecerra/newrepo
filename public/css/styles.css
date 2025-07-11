@@ -122,6 +122,16 @@ nav a {
   padding-bottom: 5px;
 }
 
+.column ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
