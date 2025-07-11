@@ -126,10 +126,11 @@ nav a {
   list-style-type: disc;
   padding-left: 20px;
   margin-top: 10px;
+  justify-content: space-around;
 }
 
 .column ul li {
-  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .grid {
