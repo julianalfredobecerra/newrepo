@@ -28,14 +28,12 @@ body {
 
 .siteName {
   font-size: 1.8rem;
-  color: black
 }
 
 #tools {
   text-align: right;
   margin-bottom: 5px;
   font-size: 0.9rem;
-  color: black;
 }
 
 #top-header {
@@ -158,7 +156,6 @@ nav a {
 
 .grid-item a {
   display: inline-block;
-  color: black;
   font-weight: bold;
   text-decoration: none;
   padding: 4px 8px;
@@ -182,10 +179,9 @@ footer {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
-
+}
 @media (max-width: 480px) {
   .grid {
     grid-template-columns: 1fr;
-  }
   }
 }
