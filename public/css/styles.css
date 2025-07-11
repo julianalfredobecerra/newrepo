@@ -17,13 +17,13 @@ body {
   padding: 10px;
   max-width: 960px;
   margin: 0 auto;
-  border: 4px solid #007EA7;
+  border: 4px solid #02b0d4;
   border-radius: 1%;
 }
 
 .columns a {
   text-decoration: none;
-  color: #007EA7;
+  color: #02b0d4;
 }
 
 .siteName {
@@ -86,7 +86,7 @@ nav a {
   left: 20px;
   top: 20px;
   max-width: 300px;
-  color: #007EA7;
+  color: #02b0d4;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -101,7 +101,7 @@ nav a {
 
 .hero-text .btn {
   display: inline-block;
-  background: #007EA7;
+  background: #02b0d4;
   color: black;
   padding: 10px 20px;
   font-weight: bold;
@@ -140,7 +140,7 @@ nav a {
 }
 
 .grid-item {
-  background-color: #007EA7;
+  background-color: #02b0d4;
   padding: 15px;
   display: flex;
   flex-direction: column;
