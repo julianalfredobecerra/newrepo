@@ -127,6 +127,7 @@ nav a {
   padding-left: 20px;
   margin-top: 10px;
   justify-content: space-around;
+  height: 20px;
 }
 
 .column ul li {
