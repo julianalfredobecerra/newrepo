@@ -127,7 +127,6 @@ nav a {
   padding-left: 20px;
   margin-top: 10px;
   justify-content: space-around;
-  height: 70px;
 }
 
 .column ul li {
@@ -174,4 +173,21 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
   color: #666;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
 }
